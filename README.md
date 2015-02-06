@@ -12,15 +12,15 @@ Another small project that was incepted in my Systems class, and I decided to ke
 You can fill it up with different **targets** that *fake* can look for and correspondingly run commands for you, including compilation (soon with flags!) and other things like echo, cat -- basic shell commands!
   
 ####**For example:**
-    1 # Fakefile
-    2 # For test.cpp
-    3 test:
-    4     echo "Building test..."
-    5     clang test.cpp -o test
-    6     echo "Finished building test!"
-    7 
-    8 clean:
-    9     rm test
+     1 # Fakefile
+     2 # For test.cpp
+     3 test:
+     4     echo "Building test..."
+     5     clang test.cpp -o test
+     6     echo "Finished building test!"
+     7 
+     8 clean:
+     9     rm test
     10    rm log.txt
     11    ls
 
