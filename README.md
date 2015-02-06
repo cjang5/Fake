@@ -21,8 +21,18 @@ You can fill it up with different **targets** that *fake* can look for and corre
      7 
      8 clean:
      9     rm test
-    10    rm log.txt
-    11    ls
+    10     rm log.txt
+    11     ls
 
-dfklfd
-    kdfkdf
+##Upcoming Features
++ Support for flags
++ 'fake clean' support
++ ability to run 'fake' instead of './fake'
++ custom targets
+
+##Changelog
+####Version 0.1 alpha
++ First release!
++ Basic target support
++ Can run native shell commands
++ Requires user to type ./fake instead of just fake
